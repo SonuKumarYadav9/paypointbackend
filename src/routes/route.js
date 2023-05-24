@@ -57,6 +57,7 @@ router.get("/user/:id", authMiddleware, getUserById);
 router.get("/masters", authMiddleware, getAllMaster);
 router.get("/distributers", authMiddleware, getAllDistributers);
 router.get("/retailers", authMiddleware, getAllDistributers);
+// router.get("/retailers", getAllDistributers);
 
 
 //*Get API For Admin
